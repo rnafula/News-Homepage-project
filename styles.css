@@ -32,10 +32,13 @@
     
  }
  .mobile{
-   display:none;
+   display:block;
 
-   
  }
+ .imagel{
+   width:60%;
+ }
+
  .desktop{
    display: none;
  }
@@ -146,6 +149,7 @@
  .image-6{
    display: none;
  }
+
  
  
  @media (max-width:375px) {
@@ -225,7 +229,9 @@
    position: fixed;
    top:0;
    right: 0;
+   display:none;
 }
+
 ul, ul a {
    list-style-type: none;
    text-decoration: none;
@@ -239,9 +245,11 @@ ul, ul a {
    
 }
 .image-6{
+   display: block;
    position: absolute;
-   top:0;
-   right:5px;
+   top:1px;
+   right:2px;
+   
 
 }
  }
