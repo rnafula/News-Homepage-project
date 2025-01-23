@@ -53,8 +53,12 @@
  }
  .image{
     width:100%;
-    height: auto;
-    /* overflow: hidden; */}
+    
+
+}
+.image img{
+   width:100%;
+}
  .image_text{
     display:flex;
     flex-direction: column;
@@ -149,16 +153,13 @@
  .image-6{
    display: none;
  }
-
+.sub{
+   display:none;
+}
  
  
  @media (max-width:400px) {
-   .desktop{
-      display:none;
-   }
-   .mobile{
-      display:block;
-   }
+   
    .text_align{
       display: flex;
       flex-direction: column;
@@ -251,5 +252,17 @@ ul, ul a {
    right:2px;
    
 
+}
+.main{
+   display: none;
+}
+.sub{
+   display:block;
+}
+.image{
+   width:100%;
+}
+.image img{
+  width:100%;
 }
  }
